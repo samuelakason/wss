@@ -1,0 +1,52 @@
+CRITICAL - 2021-11-13 14:06:35 --> Invalid file: layout/default.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/new', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(28): view('Tasks/new')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->new()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 14:07:37 --> Invalid file: layout/default/.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default/...')
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(230): CodeIgniter\View\View->render('layout/default/', Array, true)
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/new', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(28): view('Tasks/new')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->new()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 14:10:01 --> Invalid file: layout/default.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/new', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(28): view('Tasks/new')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->new()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 14:10:14 --> Invalid file: layout/.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/.php')
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(230): CodeIgniter\View\View->render('layout/', Array, true)
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/new', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(28): view('Tasks/new')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->new()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 23:15:53 --> Call to undefined method App\Controllers\Tasks::getPost()
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->create()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-13 23:18:11 --> Call to undefined method App\Controllers\Tasks::getPost()
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->create()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

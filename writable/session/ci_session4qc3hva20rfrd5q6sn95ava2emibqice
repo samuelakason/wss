@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1637453200;_ci_previous_url|s:37:"http://localhost/taskapp/public/login";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:5:"email";s:18:"samuel@example.com";s:8:"password";s:3:"sds";}}__ci_vars|a:2:{s:13:"_ci_old_input";s:3:"old";s:7:"warning";s:3:"old";}warning|s:26:"Incorrect Password Entered";

@@ -1,0 +1,206 @@
+CRITICAL - 2021-11-17 08:12:33 --> There is no data to update.
+#0 C:\xampp\htdocs\taskapp\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\taskapp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\taskapp\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Task))
+#3 C:\xampp\htdocs\taskapp\system\BaseModel.php(656): CodeIgniter\Model->update('3', Object(App\Entities\Task))
+#4 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(78): CodeIgniter\BaseModel->save(Object(App\Entities\Task))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->update('3')
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-17 09:29:47 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\taskapp\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('tasks/show/3')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('tasks/show/3')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-17 09:30:35 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('3')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:31:18 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('3')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:31:20 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('3')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:13 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('3')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:18 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->edit('3')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:25 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:25 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('12')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:25 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:25 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('1')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:26 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->edit('1')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:27 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 09:38:31 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 14:48:45 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 14:53:16 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 14:57:57 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 14:57:58 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('10')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 14:58:06 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 15:33:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:01:35 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:02:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:03:16 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:05:13 --> Call to a member function findByUid() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:05:18 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:07:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:08:39 --> Undefined variable: model
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-17 23:08:41 --> Undefined variable: model
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-17 23:09:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:14:45 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:15:28 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:15:52 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-17 23:16:20 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

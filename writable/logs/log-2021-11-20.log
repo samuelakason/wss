@@ -1,0 +1,197 @@
+CRITICAL - 2021-11-20 01:33:44 --> Too few arguments to function App\Controllers\Tasks::show(), 0 passed in C:\xampp\htdocs\taskapp\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 01:34:07 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\taskapp\app\Views\Tasks\show.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taskapp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/show', Array, true)
+#4 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(28): view('Tasks/show', Array)
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('6565')
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-20 01:40:11 --> Class 'CodeIgniterExceptions\PageNotFoundException' not found
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('6565')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 01:41:09 --> Class 'CodeIgniterExceptions\PageNotFoundException' not found
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('6565')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 01:42:09 --> No service with ID 6565 was found
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('6565')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 01:45:02 --> No service with ID 23242 was found
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('23242')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 04:13:45 --> Undefined variable: task
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->delete('13')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-20 10:11:28 --> Too few arguments to function App\Controllers\Tasks::delete(), 0 passed in C:\xampp\htdocs\taskapp\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->delete()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 10:20:02 --> Call to undefined method App\Controllers\Tasks::getTaskOr404()
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->delete('8')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-20 13:31:12 --> Unknown column 'password' in 'field list'
+CRITICAL - 2021-11-20 13:31:12 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\taskapp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\taskapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\taskapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\taskapp\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\taskapp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\taskapp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\taskapp\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(18): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#9 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#10 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-20 13:31:28 --> Unknown column 'password' in 'field list'
+CRITICAL - 2021-11-20 13:31:28 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\taskapp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\taskapp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\taskapp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\taskapp\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\taskapp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\taskapp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\taskapp\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(18): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#9 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#10 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-20 13:43:13 --> Undefined variable: adata
+#0 C:\xampp\htdocs\taskapp\app\Models\UserModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\taskapp\system\BaseModel.php(1456): App\Models\UserModel->hashPassword(Array)
+#2 C:\xampp\htdocs\taskapp\system\BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#3 C:\xampp\htdocs\taskapp\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(18): CodeIgniter\Model->insert(Object(App\Entities\User))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-20 14:57:57 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\taskapp\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\taskapp\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', '', Array, Array)
+#2 C:\xampp\htdocs\taskapp\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\taskapp\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\taskapp\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(18): CodeIgniter\Model->insert(Object(App\Entities\User))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#8 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-20 14:58:08 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\taskapp\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\taskapp\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'taskappdb', Array, Array)
+#2 C:\xampp\htdocs\taskapp\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\taskapp\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\taskapp\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(18): CodeIgniter\Model->insert(Object(App\Entities\User))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#8 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-20 15:00:41 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\taskapp\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\taskapp\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', '', Array, Array)
+#2 C:\xampp\htdocs\taskapp\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\taskapp\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\taskapp\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(18): CodeIgniter\Model->insert(Object(App\Entities\User))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#8 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-20 15:36:28 --> Call to undefined function App\Controllers\redurect()
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->create()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 15:37:25 --> Invalid file: layout/default.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Signup/success', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(32): view('Signup/success')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->success()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-20 15:38:52 --> Invalid file: layout/default.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(230): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Signup/success', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Signup.php(32): view('Signup/success')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Signup->success()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-20 17:15:42 --> Class 'App\Controller\BaseController' not found
+#0 C:\xampp\htdocs\taskapp\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\taskapp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taskapp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-20 17:16:24 --> syntax error, unexpected 'extend' (T_STRING), expecting '{'
+#0 C:\xampp\htdocs\taskapp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\taskapp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-20 18:23:20 --> Call to undefined function App\Controllers\regenerate()
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Login->create()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-20 18:26:23 --> Undefined variable: session
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Login->create()
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

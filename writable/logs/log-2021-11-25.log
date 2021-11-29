@@ -1,0 +1,58 @@
+CRITICAL - 2021-11-25 13:18:15 --> Invalid file: Admin/Users/edit.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Users/edi...')
+#1 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Admin/Users/edi...', Array, true)
+#2 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(69): view('Admin/Users/edi...', Array)
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->edit('1')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 13:22:26 --> Undefined variable: email
+#0 C:\xampp\htdocs\taskapp\app\Views\Admin\Users\form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taskapp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\taskapp\system\View\View.php(432): CodeIgniter\View\View->render('Admin/Users/for...', NULL, true)
+#4 C:\xampp\htdocs\taskapp\app\Views\Admin\Users\edit.php(25): CodeIgniter\View\View->include('Admin/Users/for...')
+#5 C:\xampp\htdocs\taskapp\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\taskapp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Admin/Users/edi...', Array, true)
+#8 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(69): view('Admin/Users/edi...', Array)
+#9 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->edit('1')
+#10 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#11 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-25 13:29:27 --> Call to undefined function App\Controllers\Admin\fill()
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->update('1')
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-25 13:42:12 --> Undefined variable: post
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->update('1')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:47:23 --> Undefined variable: post
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->update('1')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:50:25 --> Undefined variable: post
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->update('1')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 13:51:37 --> Undefined variable: post
+#0 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->update('1')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

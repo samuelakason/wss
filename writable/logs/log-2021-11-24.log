@@ -1,0 +1,45 @@
+ERROR - 2021-11-24 04:41:08 --> Can't create table `taskapp`.`task` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-11-24 13:34:29 --> Duplicate column name 'user_id'
+CRITICAL - 2021-11-24 14:30:18 --> Undefined constant 'App\Controllers\Admin'
+#0 C:\xampp\htdocs\taskapp\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\taskapp\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/users')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/users')
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-24 14:32:12 --> Undefined constant 'App\Controllers\Admin'
+#0 C:\xampp\htdocs\taskapp\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\taskapp\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/users')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/users')
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-24 14:32:16 --> Undefined constant 'App\Controllers\Admin'
+#0 C:\xampp\htdocs\taskapp\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\taskapp\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/users')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/users')
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-24 14:33:15 --> Undefined constant 'App\Controllers\Admin'
+#0 C:\xampp\htdocs\taskapp\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\taskapp\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/users')
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/users')
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-24 14:34:40 --> View themes, no current section.
+#0 C:\xampp\htdocs\taskapp\app\Views\Admin\Users\index.php(47): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taskapp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#4 C:\xampp\htdocs\taskapp\app\Controllers\Admin\Users.php(21): view('Admin/Users/ind...', Array)
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Admin\Users->index()
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

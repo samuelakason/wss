@@ -1,0 +1,77 @@
+CRITICAL - 2021-11-12 01:34:06 --> Call to undefined method CodeIgniter\View\View::sectio()
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/index', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(13): view('Tasks/index', Array)
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-12 02:45:22 --> Call to undefined method CodeIgniter\View\View::sectio()
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\taskapp\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/index', Array, true)
+#3 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(13): view('Tasks/index', Array)
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->index()
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-12 14:25:52 --> Too few arguments to function App\Controllers\Tasks::show(), 0 passed in C:\xampp\htdocs\taskapp\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-12 14:49:12 --> Invalid file: Tasks/show.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tasks/show.php')
+#1 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/show', Array, true)
+#2 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(22): view('Tasks/show', Array)
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('1')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-12 14:51:15 --> Invalid file: Tasks/show.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tasks/show.php')
+#1 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/show', Array, true)
+#2 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(22): view('Tasks/show', Array)
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('1')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-12 14:54:20 --> Invalid file: Tasks/show.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tasks/show.php')
+#1 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/show', Array, true)
+#2 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(22): view('Tasks/show', Array)
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('1')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-12 15:10:52 --> Too few arguments to function App\Controllers\Tasks::show(), 0 passed in C:\xampp\htdocs\taskapp\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show()
+#1 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#2 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-12 15:11:08 --> Invalid file: Tasks/show.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tasks/show.php')
+#1 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/show', Array, true)
+#2 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(22): view('Tasks/show', Array)
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('1')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-12 15:12:18 --> Invalid file: Tasks/show.php
+#0 C:\xampp\htdocs\taskapp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tasks/show.php')
+#1 C:\xampp\htdocs\taskapp\system\Common.php(1097): CodeIgniter\View\View->render('Tasks/show', Array, true)
+#2 C:\xampp\htdocs\taskapp\app\Controllers\Tasks.php(22): view('Tasks/show', Array)
+#3 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(824): App\Controllers\Tasks->show('1')
+#4 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#5 C:\xampp\htdocs\taskapp\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
